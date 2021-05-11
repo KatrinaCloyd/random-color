@@ -12,7 +12,7 @@ export default class RandomColor extends Component {
     changeColor = () => {
         let newColor = this.colors[Math.floor(Math.random() * 10)];
         if (this.state.color === newColor) {
-            this.setState({ img: 'https://media.wired.com/photos/59094a0ad8c8646f38eef2ae/master/pass/rainbow-sq.jpg' });
+            this.setState({ img: 'https://media.tenor.com/images/21c7c1bb5ab46a39b20abb72d94569a6/raw' });
         }
         else {
             this.setState({ color: newColor, img: '' });
@@ -29,3 +29,7 @@ export default class RandomColor extends Component {
         );
     }
 }
+
+
+// https://media.tenor.com/images/21c7c1bb5ab46a39b20abb72d94569a6/raw
+// https://media.wired.com/photos/59094a0ad8c8646f38eef2ae/master/pass/rainbow-sq.jpg
