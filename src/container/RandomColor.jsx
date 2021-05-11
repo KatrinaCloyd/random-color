@@ -23,8 +23,6 @@ export default class RandomColor extends Component {
         this.interval = setInterval(() => this.changeColor(), 1000);
     };
 
-    // 
-
     render() {
         return (
             <Display color={this.state.color} img={this.state.img} />

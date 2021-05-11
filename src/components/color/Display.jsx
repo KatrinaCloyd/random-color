@@ -7,6 +7,7 @@ const Display = ({ color, img }) => (
 
 Display.propTypes = {
     color: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
 }
 
 export default Display;
